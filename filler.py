@@ -5,16 +5,16 @@ import openai
 from fpdf import FPDF
 
 # Set OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # pdf which has the information
-input_pdf_path = "Bio-data3.pdf"
+input_pdf_path = ""
 
 #pdf which is the form to fill
-output_pdf_path = "Emp.pdf"
+output_pdf_path = ""
 
 # add name and path for the result as filled form
-result_pdf_path = "new.pdf"
+result_pdf_path = ""
 
 def extract_text_from_pdf(pdf_path):
     """
